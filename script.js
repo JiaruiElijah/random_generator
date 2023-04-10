@@ -28,9 +28,12 @@ function restyle() {
   var randR = Math.random() * 255;
   var randG = Math.random() * 255;
   var randB = Math.random() * 255;
+  var num = Math.random()*100;
   var randOutputColor = "rgb(0,0,"+randB+")";
   var randOutputColor2 = "rgb( "+randR+","+randG+","+randB+",20)";
   outputText.style.color = randOutputColor;
   outputText.style.backgroundColor = randOutputColor2;
   heading.style.color = "rgb( "+randR+","+randG+","+randB+",40)";
+  outputText.style.fontSize = num;
+  subTitle.style.color = "rgb( "+randR+","+randG+","+randB+",40)";
 }

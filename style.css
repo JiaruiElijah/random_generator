@@ -19,11 +19,12 @@ input, button {
 #title {
   /* text-shadow: 0px 0px 13px #fff; */
   text-align: center;
-  transition: all 2s;
+  transition: all 4s;
 }
 #subTitle{
   font-size: 1rem;
   text-align: center;
+  transition: all 6s;
 }
 .specialTitle {
   text-decoration: underline;
@@ -34,5 +35,6 @@ input, button {
 #outputText {
   background-color: #000;
   transition: all 2s;
+
   padding: 1vmin;
 }
